@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table_users",
+  "info": {
+    "name": "Table User"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Desc": {
+      "type": "text"
+    }
+  }
+}
