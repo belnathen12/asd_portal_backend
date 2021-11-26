@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  * An asynchronous bootstrap function that runs before
@@ -10,4 +10,12 @@
  * See more details here: https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/configurations.html#bootstrap
  */
 
-module.exports = () => {};
+module.exports = async () => {
+  //populate data dummy
+  //   for (let i = 0; i <= 5; i++) {
+  //     await strapi.services[`user-preview`].create({
+  //       Name: `name ${i}`,
+  //       Desc: `desc ${i}`,
+  //     });
+  //   }
+};

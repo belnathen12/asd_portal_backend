@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/table-users",
-      "handler": "table-user.find",
+      "path": "/user-previews",
+      "handler": "user-preview.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/table-users/count",
-      "handler": "table-user.count",
+      "path": "/user-previews/count",
+      "handler": "user-preview.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/table-users/:id",
-      "handler": "table-user.findOne",
+      "path": "/user-previews/:id",
+      "handler": "user-preview.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/table-users",
-      "handler": "table-user.create",
+      "path": "/user-previews",
+      "handler": "user-preview.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/table-users/:id",
-      "handler": "table-user.update",
+      "path": "/user-previews/:id",
+      "handler": "user-preview.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/table-users/:id",
-      "handler": "table-user.delete",
+      "path": "/user-previews/:id",
+      "handler": "user-preview.delete",
       "config": {
         "policies": []
       }

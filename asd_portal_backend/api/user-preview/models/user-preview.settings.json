@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "table_users",
+  "collectionName": "user_previews",
   "info": {
-    "name": "Table User"
+    "name": "User Preview"
   },
   "options": {
     "increments": true,
@@ -23,7 +23,7 @@
       "required": false,
       "pluginOptions": {}
     },
-    "Title": {
+    "Name": {
       "type": "string"
     },
     "Desc": {
